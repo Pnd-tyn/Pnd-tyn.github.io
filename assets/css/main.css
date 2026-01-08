@@ -1,0 +1,23 @@
+---
+---
+
+/* site-specific overrides for Minimal Mistakes */
+:root {
+  --site-max-width: 800px;
+}
+
+/* 基本フォントを維持 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Sans JP", "Segoe UI", Arial, sans-serif;
+}
+
+/* 幅を既存に近づける */
+.container, .page {
+  max-width: var(--site-max-width);
+}
+
+/* MathJax の見た目調整 */
+.MathJax, .mjx-chtml {
+  font-size: 1.1em;
+  line-height: 1.35;
+}
