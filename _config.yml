@@ -1,8 +1,16 @@
 # Site settings
-title: Panda
+title: Pandaの短期記憶領域
 description: 主に日記、たまに数式
 baseurl: ""
 url: "https://tyanagity.github.io"
+
+# Profile
+
+author:
+  name: "rPanda"
+  avatar: "/assets/images/panda-stun.gif" # 好きな画像のパスに変更
+  bio: "Spirit Bear"
+  location: "Tokyo, Japan"
 
 # Build settings
 markdown: kramdown
@@ -17,6 +25,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Collections
 collections:

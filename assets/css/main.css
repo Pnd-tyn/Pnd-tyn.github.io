@@ -1,4 +1,3 @@
----/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
@@ -193,14 +192,13 @@ footer {
     font-size: 1.1em;
 }
 
----
 
 /* site-specific overrides for Minimal Mistakes */
 :root {
   --site-max-width: 800px;
 }
 
-/* 基本フォントを維持 */
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Noto Sans JP", "Segoe UI", Arial, sans-serif;
 }

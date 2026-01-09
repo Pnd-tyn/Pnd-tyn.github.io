@@ -1,19 +1,19 @@
 ---
 layout: single
 ---
-
 <article class="post">
     <header class="post-header">
-        <h2>{{ page.title }}</h2>
-        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%m月%d日" }}</time>
-        
-        {% if page.tags %}
-        <div class="tags">
-            {% for tag in page.tags %}
-            <span class="tag">{{ tag }}</span>
-            {% endfor %}
+        <div class="post-title-meta">
+            <h2 class="post-title">{{ page.title }}</h2>
+            <h3 class="post-meta">
+                <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y年%m月%d日" }}</time>
+                {% if page.tags %} &nbsp;|&nbsp;
+                    {% for tag in page.tags %}
+                        <span class="tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
+                    {% endfor %}
+                {% endif %}
+            </h3>
         </div>
-        {% endif %}
     </header>
     
     <div class="post-content">
