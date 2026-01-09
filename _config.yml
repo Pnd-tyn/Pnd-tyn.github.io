@@ -1,11 +1,12 @@
 # Site settings
 title: Pandaの短期記憶領域
-description: 主に日記、たまに数式
+description: パンダの記憶は長くもたないので、記録する。
 baseurl: ""
 url: "https://tyanagity.github.io"
 
-# Profile
+minimal_mistakes_skin: "default"  # または "air", "contrast", "dark" など
 
+# Profile
 author:
   name: "rPanda"
   avatar: "/assets/images/panda-stun.gif" # 好きな画像のパスに変更
