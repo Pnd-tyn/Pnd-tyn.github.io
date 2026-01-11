@@ -1,5 +1,5 @@
 # Site settings
-title: Pandaの短期記憶領域
+title: Pandaの短期記憶
 description: パンダの記憶は長くもたないので、記録する。
 baseurl: ""
 url: "https://tyanagity.github.io"
@@ -9,7 +9,7 @@ minimal_mistakes_skin: "default"  # または "air", "contrast", "dark" など
 # Profile
 author:
   name: "rPanda"
-  avatar: "/assets/images/panda-stun.gif" # 好きな画像のパスに変更
+  avatar: "/assets/images/delivery_girl.gif" # 好きな画像のパスに変更
   bio: "Spirit Bear"
   location: "Tokyo, Japan"
 
